@@ -6,7 +6,7 @@ library(plumber)
 # -- AWS vs Digital Ocean https://www.qovery.com/blog/managed-kubernetes-comparison-eks-vs-digitalocean-kubernetes
     # --  according to above website: AWS documentation is dope. Digital ocean docs are ample. Community suppoort and users for AWS is 10 times that of Digital Ocean.
     # Digital ocean has far less customizations to traffic and resources than AWS. AWS EKS cost is based on managed time, where as DOKS is based on bandwidth.
-    #   An application requiring high bandwith, should have AWS EKS to mitigate costs. Initial start upcosts for AWS or more than DOKS.
+    #   An application requiring high bandwith, should have AWS EKS to mitigate costs. Initial start upcosts for AWS are more than DOKS.
 
 #* Health Check - Is the API running
 #*  @get /health-check
